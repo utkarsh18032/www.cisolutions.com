@@ -1,3 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 70px;
+}
 h1{
     background-color: blueviolet;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+
+    
+}
+ul li a{
+    padding:10px 20px  ;
+    color:white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
 }
